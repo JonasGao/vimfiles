@@ -1,0 +1,4 @@
+plugged/
+.netrwhist
+vim-lsp.log
+autoload/plug.vim
