@@ -70,7 +70,7 @@ nnoremap	<Leader>l    :bn<CR>
 nnoremap <silent> <Leader> :WhichKey '\'<CR>
 nnoremap <silent> <Space> :WhichKey '<Space>'<CR>
 
-if $TERM ==? 'xterm-256color'
+if $TERM ==? 'xterm-256color' || has('win32')
 	set termguicolors
 endif
 
