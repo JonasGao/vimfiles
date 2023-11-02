@@ -1,5 +1,4 @@
 param (
-  [Switch]$Plug,
   $Proxy
 )
 
@@ -38,7 +37,4 @@ function InstallPlug
   }
 }
 
-if ($Plug)
-{
-  InstallPlug
-}
+InstallPlug
