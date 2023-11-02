@@ -1,7 +1,7 @@
 # vimfiles
 My vimfiles
 
-# Install
+# Installation
 
 ## Powershell
 
