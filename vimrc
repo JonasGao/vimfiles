@@ -91,6 +91,7 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'liuchengxu/vim-which-key'
 Plug 'morhetz/gruvbox'
 Plug 'rhysd/vim-healthcheck'
+Plug 'unblevable/quick-scope'
 call plug#end()
 
 set bg=dark
