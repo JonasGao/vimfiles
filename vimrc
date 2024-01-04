@@ -20,6 +20,7 @@ set guioptions-=m
 set guioptions-=L
 set guioptions-=r
 set guioptions-=b
+set lines=43 columns=128
 set autoindent
 set smartindent
 set expandtab
