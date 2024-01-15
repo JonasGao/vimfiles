@@ -28,7 +28,7 @@ set smarttab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set guifont=等距更纱黑体_SC:h11:cGB2312:qCLEARTYPE
+set guifont=等距更纱黑体_SC:h12:cGB2312:qCLEARTYPE
 set fileencodings=utf-8,gbk2312,gbk,gb18030,cp936
 set encoding=utf-8
 set langmenu=zh_CN
