@@ -1,3 +1,5 @@
+source $VIMRUNTIME/defaults.vim
+
 set nocompatible
 set hidden
 set nobackup
@@ -33,8 +35,8 @@ set fileencodings=utf-8,gbk2312,gbk,gb18030,cp936
 set encoding=utf-8
 set langmenu=zh_CN
 let $LANG = 'en_US.UTF-8'
-source $VIMRUNTIME/delmenu.vim
-source $VIMRUNTIME/menu.vim
+"source $VIMRUNTIME/delmenu.vim
+"source $VIMRUNTIME/menu.vim
 
 
 " 参考
