@@ -8,15 +8,12 @@ set hidden
 set nobackup
 set noswapfile
 set nobomb
-set autochdir
-set signcolumn=yes
 set whichwrap=b,s,<,>,[,]
 set history=2048
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 set timeoutlen=1200
 set wildmenu wildmode=longest:full,full
 set clipboard+=unnamed
-set nu rnu
 set cursorline
 set hlsearch
 set autoindent
@@ -31,6 +28,14 @@ set fileencodings=utf-8,gbk2312,gbk,gb18030,cp936
 set encoding=utf-8
 set langmenu=zh_CN
 let $LANG = 'en_US.UTF-8'
+
+" Temp disable
+"set autochdir
+"set signcolumn=yes
+"set nu rnu
+
+" Enable statusline under plugin dir
+set laststatus=2
 
 syntax on
 
