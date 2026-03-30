@@ -65,8 +65,8 @@ let mapleader="\\"
 nnoremap  <Leader>x    :set paste!<CR>
 nnoremap  <Leader>x    :set paste<CR>i
 noremap   <Leader>r    :bro ol<CR>
-nnoremap  <Leader>fms  :set foldmethod=syntax<CR>
-nnoremap  <Leader>fmi  :set foldmethod=indent<CR>
+nnoremap  <Leader>zs  :set foldmethod=syntax<CR>
+nnoremap  <Leader>zi  :set foldmethod=indent<CR>
 nnoremap  <Leader>n    :set nu! rnu!<CR>
 nnoremap  <Leader>w    :set wrap!<CR>
 nnoremap  <Leader>m    :set filetype=
